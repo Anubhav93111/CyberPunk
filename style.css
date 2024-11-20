@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Cyberpunk';
+    src: url('public\glitch-goblin-font\GlitchGoblin-2O87v.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    font-family: 'Cyberpunk', sans-serif;
+}
+img{
+    width: 50%;
+}
+
+.secondpage{
+    background-color: #000 !important;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    
+    position: relative;
+    background-color: #000;
+}
+.banner .slider{
+    position:absolute;
+    height: 250px;
+    width: 200px;
+    top: 25%;
+    left: calc(50% - 100px);
+    transform-style: preserve-3d;
+    transform: perspective(1000px) rotateX(-10deg);
+    animation: chakra 20s linear infinite;   
+}
+@keyframes chakra{
+    from{
+        transform: perspective(1000px)  rotateX(-10deg) rotateY(0deg);
+    } to{
+        transform: perspective(1000px)  rotateX(-10deg) rotateY(360deg);
+    } 
+}
+.banner .slider .iteam{
+    position: absolute;
+    inset: 0 0 0 0;
+    
+    transform: rotateY(calc((var(--position) - 1) * (360deg / var(--quantity))))
+               translateZ(300px);
+       
+}
+
+.banner .slider .iteam img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.iteamContainer img{
+    rotate: 90deg;
+    width: 3rem;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #020040, #011491);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.thirdpage{
+    background: linear-gradient(45deg, #00317a, #0e0048, #61022e, #940000);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+}
+.thirdpage h1{
+    font-family: 'Cyberpunk', sans-serif;
+    -webkit-text-stroke: 2px #ffd700;
+    
+}   
