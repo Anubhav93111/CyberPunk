@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CyberPunk 2027</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="module" crossorigin src="/assets/index-BYD9Iag4.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DBr0xrQB.css">
+</head>
+
+<body class="overflow-x-hidden">
+  <div class="main w-full h-screen">
+    <nav class="w-full absolute top-0 left-0 px-10 py-3 flex justify-between items-center">
+      <img class="w-[160px] mix-blend-screen filter saturate-150 contrast-125"
+        src="https://cdn2.steamgriddb.com/file/sgdb-cdn/logo/ab67d7cd6af126c743b9fcec4039e9da.png" alt="">
+      <div class="flex gap-8 items-center">
+        <button
+          class="text-white font-['Montserrat'] text-lg hover:text-blue-400 hover:underline hover:text-shadow-[0_0_10px_#60a5fa]">Games</button>
+        <button
+          class="text-white font-['Montserrat'] text-lg hover:text-blue-400 hover:underline hover:text-shadow-[0_0_10px_#60a5fa]">About</button>
+        <button
+          class="text-white font-['Montserrat'] text-lg hover:text-blue-400 hover:underline hover:text-shadow-[0_0_10px_#60a5fa]">Community</button>
+        <button
+          class="text-white font-['Montserrat'] text-lg hover:text-blue-400 hover:underline hover:text-shadow-[0_0_10px_#60a5fa]">Shop</button>
+        <button
+          class="text-white font-['Montserrat'] text-lg hover:text-blue-400 hover:underline hover:text-shadow-[0_0_10px_#60a5fa]">Login</button>
+      </div>
+  </div>
+  </nav>
+  <div class="w-full h-full overflow-hidden">
+    <img
+      class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mix-blend-screen filter saturate-150 contrast-125"
+      src="https://preview.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-bvn9rs4wqee91.png?width=640&crop=smart&auto=webp&s=63ca48711dde6b89b2caf1797238af6e7405ae67"
+      alt="">
+    <div
+      class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[25rem] h-[25rem] bg-blue-800 rounded-full blur-[150px] z-[-2]">
+    </div>
+
+    <canvas id="canvas" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[-1]"></canvas>
+  </div>
+
+  <div class="scrollingDiv w-[100%] h-[4rem] bg-yellow-500 flex  items-center">
+    <div class="iteamContainer flex-shrink-0 flex items-center transform -translate-x-full pl-4">
+      <h1 class="text-center text-[2rem] flex items-center justify-center h-full">SCROLLING</h1>
+      <img class="w-[3.5rem]"
+        src="https://static.vecteezy.com/system/resources/previews/017/785/077/original/right-arrow-icon-on-transparent-background-free-png.png"
+        alt="">
+    </div>
+    <div class="iteamContainer flex-shrink-0 flex items-center transform -translate-x-full pl-4">
+      <h1 class="text-center text-[2rem] flex items-center justify-center h-full">SCROLLING</h1>
+      <img class="w-[3.5rem]"
+        src="https://static.vecteezy.com/system/resources/previews/017/785/077/original/right-arrow-icon-on-transparent-background-free-png.png"
+        alt="">
+    </div>
+    <div class="iteamContainer flex-shrink-0 flex items-center transform -translate-x-full pl-4">
+      <h1 class="text-center text-[2rem] flex items-center justify-center h-full">SCROLLING</h1>
+      <img class="w-[3.5rem]"
+        src="https://static.vecteezy.com/system/resources/previews/017/785/077/original/right-arrow-icon-on-transparent-background-free-png.png"
+        alt="">
+    </div>
+
+    <div class="iteamContainer flex-shrink-0 flex items-center transform -translate-x-full pl-4">
+      <h1 class="text-center text-[2rem] flex items-center justify-center h-full">SCROLLING</h1>
+      <img class="w-[3.5rem]"
+        src="https://static.vecteezy.com/system/resources/previews/017/785/077/original/right-arrow-icon-on-transparent-background-free-png.png"
+        alt="">
+    </div>
+    <div class="iteamContainer flex-shrink-0 flex items-center transform -translate-x-full pl-4">
+      <h1 class="text-center text-[2rem] flex items-center justify-center h-full">SCROLLING</h1>
+      <img class="w-[3.5rem]"
+        src="https://static.vecteezy.com/system/resources/previews/017/785/077/original/right-arrow-icon-on-transparent-background-free-png.png"
+        alt="">
+    </div>
+    <div class="iteamContainer flex-shrink-0 flex items-center transform -translate-x-full pl-4">
+      <h1 class="text-center text-[2rem] flex items-center justify-center h-full">SCROLLING</h1>
+      <img class="w-[3.5rem]"
+        src="https://static.vecteezy.com/system/resources/previews/017/785/077/original/right-arrow-icon-on-transparent-background-free-png.png"
+        alt="">
+    </div>
+    <div class="iteamContainer flex-shrink-0 flex items-center transform -translate-x-full pl-4">
+      <h1 class="text-center text-[2rem] flex items-center justify-center h-full">SCROLLING</h1>
+      <img class="w-[3.5rem]"
+        src="https://static.vecteezy.com/system/resources/previews/017/785/077/original/right-arrow-icon-on-transparent-background-free-png.png"
+        alt="">
+    </div>
+    <div class="iteamContainer flex-shrink-0 flex items-center transform -translate-x-full pl-4">
+      <h1 class="text-center text-[2rem] flex items-center justify-center h-full">SCROLLING</h1>
+      <img class="w-[3.5rem]"
+        src="https://static.vecteezy.com/system/resources/previews/017/785/077/original/right-arrow-icon-on-transparent-background-free-png.png"
+        alt="">
+    </div>
+
+    <div class="iteamContainer flex-shrink-0 flex items-center transform -translate-x-full pl-4">
+      <h1 class="text-center text-[2rem] flex items-center justify-center h-full">SCROLLING</h1>
+      <img class="w-[3.5rem]"
+        src="https://static.vecteezy.com/system/resources/previews/017/785/077/original/right-arrow-icon-on-transparent-background-free-png.png"
+        alt="">
+    </div>
+    <div class="iteamContainer flex-shrink-0 flex items-center transform -translate-x-full pl-4">
+      <h1 class="text-center text-[2rem] flex items-center justify-center h-full">SCROLLING</h1>
+      <img class="w-[3.5rem]"
+        src="https://static.vecteezy.com/system/resources/previews/017/785/077/original/right-arrow-icon-on-transparent-background-free-png.png"
+        alt="">
+    </div>
+    <div class="iteamContainer flex-shrink-0 flex items-center transform -translate-x-full pl-4">
+      <h1 class="text-center text-[2rem] flex items-center justify-center h-full">SCROLLING</h1>
+      <img class="w-[3.5rem]"
+        src="https://static.vecteezy.com/system/resources/previews/017/785/077/original/right-arrow-icon-on-transparent-background-free-png.png"
+        alt="">
+    </div>
+    <div class="iteamContainer flex-shrink-0 flex items-center transform -translate-x-full pl-4">
+      <h1 class="text-center text-[2rem] flex items-center justify-center h-full">SCROLLING</h1>
+      <img class="w-[3.5rem]"
+        src="https://static.vecteezy.com/system/resources/previews/017/785/077/original/right-arrow-icon-on-transparent-background-free-png.png"
+        alt="">
+    </div>
+    <div class="iteamContainer flex-shrink-0 flex items-center transform -translate-x-full pl-4">
+      <h1 class="text-center text-[2rem] flex items-center justify-center h-full">SCROLLING</h1>
+      <img class="w-[3.5rem]"
+        src="https://static.vecteezy.com/system/resources/previews/017/785/077/original/right-arrow-icon-on-transparent-background-free-png.png"
+        alt="">
+    </div>
+    <div class="iteamContainer flex-shrink-0 flex items-center transform -translate-x-full pl-4">
+      <h1 class="text-center text-[2rem] flex items-center justify-center h-full">SCROLLING</h1>
+      <img class="w-[3.5rem]"
+        src="https://static.vecteezy.com/system/resources/previews/017/785/077/original/right-arrow-icon-on-transparent-background-free-png.png"
+        alt="">
+    </div>
+    <div class="iteamContainer flex-shrink-0 flex items-center transform -translate-x-full pl-4">
+      <h1 class="text-center text-[2rem] flex items-center justify-center h-full">SCROLLING</h1>
+      <img class="w-[3.5rem]"
+        src="https://static.vecteezy.com/system/resources/previews/017/785/077/original/right-arrow-icon-on-transparent-background-free-png.png"
+        alt="">
+    </div>
+    <div class="iteamContainer flex-shrink-0 flex items-center transform -translate-x-full pl-4">
+      <h1 class="text-center text-[2rem] flex items-center justify-center h-full">SCROLLING</h1>
+      <img class="w-[3.5rem]"
+        src="https://static.vecteezy.com/system/resources/previews/017/785/077/original/right-arrow-icon-on-transparent-background-free-png.png"
+        alt="">
+    </div>
+    <div class="iteamContainer flex-shrink-0 flex items-center transform -translate-x-full pl-4">
+      <h1 class="text-center text-[2rem] flex items-center justify-center h-full">SCROLLING</h1>
+      <img class="w-[3.5rem]"
+        src="https://static.vecteezy.com/system/resources/previews/017/785/077/original/right-arrow-icon-on-transparent-background-free-png.png"
+        alt="">
+    </div>
+    <div class="iteamContainer flex-shrink-0 flex items-center transform -translate-x-full pl-4">
+      <h1 class="text-center text-[2rem] flex items-center justify-center h-full">SCROLLING</h1>
+      <img class="w-[3.5rem]"
+        src="https://static.vecteezy.com/system/resources/previews/017/785/077/original/right-arrow-icon-on-transparent-background-free-png.png"
+        alt="">
+    </div>
+    <div class="iteamContainer flex-shrink-0 flex items-center transform -translate-x-full pl-4">
+      <h1 class="text-center text-[2rem] flex items-center justify-center h-full">SCROLLING</h1>
+      <img class="w-[3.5rem]"
+        src="https://static.vecteezy.com/system/resources/previews/017/785/077/original/right-arrow-icon-on-transparent-background-free-png.png"
+        alt="">
+    </div>
+    <div class="iteamContainer flex-shrink-0 flex items-center transform -translate-x-full pl-4">
+      <h1 class="text-center text-[2rem] flex items-center justify-center h-full">SCROLLING</h1>
+      <img class="w-[3.5rem]"
+        src="https://static.vecteezy.com/system/resources/previews/017/785/077/original/right-arrow-icon-on-transparent-background-free-png.png"
+        alt="">
+    </div>
+    <div class="iteamContainer flex-shrink-0 flex items-center transform -translate-x-full pl-4">
+      <h1 class="text-center text-[2rem] flex items-center justify-center h-full">SCROLLING</h1>
+      <img class="w-[3.5rem]"
+        src="https://static.vecteezy.com/system/resources/previews/017/785/077/original/right-arrow-icon-on-transparent-background-free-png.png"
+        alt="">
+    </div>
+    <div class="iteamContainer flex-shrink-0 flex items-center transform -translate-x-full pl-4">
+      <h1 class="text-center text-[2rem] flex items-center justify-center h-full">SCROLLING</h1>
+      <img class="w-[3.5rem]"
+        src="https://static.vecteezy.com/system/resources/previews/017/785/077/original/right-arrow-icon-on-transparent-background-free-png.png"
+        alt="">
+    </div>
+    <div class="iteamContainer flex-shrink-0 flex items-center transform -translate-x-full pl-4">
+      <h1 class="text-center text-[2rem] flex items-center justify-center h-full">SCROLLING</h1>
+      <img class="w-[3.5rem]"
+        src="https://static.vecteezy.com/system/resources/previews/017/785/077/original/right-arrow-icon-on-transparent-background-free-png.png"
+        alt="">
+    </div>
+    <div class="iteamContainer flex-shrink-0 flex items-center transform -translate-x-full pl-4">
+      <h1 class="text-center text-[2rem] flex items-center justify-center h-full">SCROLLING</h1>
+      <img class="w-[3.5rem]"
+        src="https://static.vecteezy.com/system/resources/previews/017/785/077/original/right-arrow-icon-on-transparent-background-free-png.png"
+        alt="">
+    </div>
+  </div>
+  </div>
+  <div class="secondpage h-[100vh] w-full bg-black">
+    <div class="banner">
+      <div class="slider upar" style="--quantity: 8">
+        <div class="iteam" style="--position: 1"><img
+            src="https://pics.craiyon.com/2023-10-07/8b5ce9d73bdf4ea2aa6b9ca38d7beee0.webp" alt=""></div>
+        <div class="iteam" style="--position: 2"><img
+            src="https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg" alt=""></div>
+        <div class="iteam" style="--position: 3"><img
+            src="https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://fdczvxmwwjwpwbeeqcth.supabase.co/storage/v1/object/public/images/0101d07e-d041-4233-8471-cae03c03f6d3/9d4814e2-192b-457d-9ceb-d1f041b14449.png"
+            alt=""></div>
+        <div class="iteam" style="--position: 4"><img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS19RMmmmcWfrMu2mTWcWok-EMwMYqXEniHPzJpVIj5hdDFVCi7F2XhhRu_ug0SrtFBoxY&usqp=CAU"
+            alt=""></div>
+        <div class="iteam" style="--position: 5"><img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxT32uy4y0AJMHpLhT7j3wZSpm2y0ozprsNd1R7tnIjivCGA_HxfT5EVuiFUBdzKACzzo&usqp=CAU"
+            alt=""></div>
+        <div class="iteam" style="--position: 6"><img src="https://i.redd.it/dy4vjbn5fy381.jpg" alt=""></div>
+        <div class="iteam" style="--position: 7"><img
+            src="https://www.guilfordian.com/wp-content/uploads/2021/03/48166805437_36f37520d6_c.jpg" alt=""></div>
+        <div class="iteam" style="--position: 8"><img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-nMoQXAhnBJeYITgIOJKCjixWTIwaJh-dyo9DgWFTE3KnjIGIIXWfSSpiCDeCIv12LqI&usqp=CAU"
+            alt=""></div>
+
+      </div>
+    </div>
+  </div>
+  <div class="thirdmainpage h-[100vh] w-full bg-black-800">
+    <div class="thirdpage h-[80vh] w-full bg-blue-400 flex ">
+      <h1 class="text-[26rem] pl-4 flex-shrink-0 font-light">We Shouldn't Fear Change Itself</h1>
+    </div>
+  </div>
+ 
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</body>
+
+</html>
